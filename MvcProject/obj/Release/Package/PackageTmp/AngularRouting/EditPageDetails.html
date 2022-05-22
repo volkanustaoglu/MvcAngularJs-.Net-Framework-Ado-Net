@@ -1,0 +1,202 @@
+﻿
+<div class="page-content-wrapper">
+
+    <div class="page-content">
+
+
+
+
+
+        <div class="row">
+            <div class="col-md-12">
+                <!-- BEGIN VALIDATION STATES-->
+                <div class="portlet light portlet-fit portlet-form bordered">
+                    <div class="portlet-title">
+                        <div class="caption">
+                            <i class="icon-bubble font-green"></i>
+                            <span class="caption-subject font-green bold uppercase">Edit Page</span>
+                        </div>
+
+                    </div>
+
+                    <div class="portlet-body">
+                        <!-- BEGIN FORM-->
+                        <form method="post" id="form_sample_2" class="form-horizontal">
+                            <div class="form-body">
+                                <div class="form-group  margin-top-20">
+                                    <label class="control-label col-md-3">
+                                        Img
+                                    </label>
+                                    <div class="col-md-4">
+                                        <div class="input-icon right">
+                                            <i class="fa"></i>
+                                            <div class="fileinput fileinput-new" data-provides="fileinput">
+
+                                                <div class="fileinput-new thumbnail">
+
+                                                    <img ng-show="Img ==''" ng-src="/Content/Img/noimage.png" alt="" width="300px" />
+
+                                                    <img ng-show="Img !=''" ng-src="{{Img}}" alt="" width="300px" />
+
+                                                </div>
+
+                                                <div class="fileinput-preview fileinput-exists thumbnail"> </div>
+
+                                                <div>
+
+                                                    <span class="btn default btn-file">
+
+                                                        <span class="fileinput-new">   Resim Değiştir </span>
+
+                                                        <span class="fileinput-exists"> Değiştir </span>
+
+                                                        <input type="file" name="" ng-model="ImagePath" id="ImagePath" class="ImagePath" onchange="angular.element(this).scope().fileNameChanged(this)">
+
+                                                    </span>
+
+                                                    <a href="javascript:;" class="btn red fileinput-exists" data-dismiss="fileinput" ng-model="ImagePath"> Sil </a>
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group  margin-top-20">
+                                    <label class="control-label col-md-3">
+                                        PageId
+                                        <span class="required"> * </span>
+                                    </label>
+                                    <div class="col-md-4">
+                                        <div class="input-icon right">
+                                            <i class="fa"></i>
+                                            <input type="text" ng-model="PageId" class="form-control" name="PageId" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group  margin-top-20">
+                                    <label class="control-label col-md-3">
+                                        UserId
+                                        <span class="required"> * </span>
+                                    </label>
+                                    <div class="col-md-4">
+                                        <div class="input-icon right">
+                                            <i class="fa"></i>
+
+                                            <select class="form-control"
+                                                    ng-model="obj.selected"
+                                                    ng-options="m.Username as m.Username for m in users" ng-click="FindUserId(obj.selected)">
+                                                <option value="">Atama Yapılmadı</option>
+                                            </select>
+
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="form-group  margin-top-20">
+                                    <label class="control-label col-md-3">
+                                        ArtistName
+                                        <span class="required"> * </span>
+                                    </label>
+                                    <div class="col-md-4">
+                                        <div class="input-icon right">
+                                            <i class="fa"></i>
+                                            <input type="text" ng-model="ArtistName" class="form-control" name="Input1" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group  margin-top-20">
+                                    <label class="control-label col-md-3">
+                                        Title
+                                        <span class="required"> * </span>
+                                    </label>
+                                    <div class="col-md-4">
+                                        <div class="input-icon right">
+                                            <i class="fa"></i>
+                                            <input type="text" ng-model="Title" class="form-control" name="Input2" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group  margin-top-20">
+                                    <label class="control-label col-md-3">
+                                        Technique
+                                        <span class="required"> * </span>
+                                    </label>
+                                    <div class="col-md-4">
+                                        <div class="input-icon right">
+                                            <i class="fa"></i>
+                                            <input type="text" ng-model="Technique" class="form-control" name="Input3" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group  margin-top-20">
+                                    <label class="control-label col-md-3">
+                                        Size
+                                        <span class="required"> * </span>
+                                    </label>
+                                    <div class="col-md-4">
+                                        <div class="input-icon right">
+                                            <i class="fa"></i>
+                                            <input type="text" ng-model="Size" class="form-control" name="Input4" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group  margin-top-20">
+                                    <label class="control-label col-md-3">
+                                        DateYear
+                                        <span class="required"> * </span>
+                                    </label>
+                                    <div class="col-md-4">
+                                        <div class="input-icon right">
+                                            <i class="fa"></i>
+                                            <input type="text" ng-model="DateYear" class="form-control" name="Input5" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group  margin-top-20">
+                                    <label class="control-label col-md-3">
+                                        Signature
+                                        <span class="required"> * </span>
+                                    </label>
+                                    <div class="col-md-4">
+                                        <div class="input-icon right">
+                                            <i class="fa"></i>
+                                            <input type="text" ng-model="Signature" class="form-control" name="Input5" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group  margin-top-20">
+                                    <label class="control-label col-md-3">
+                                        Note
+                                        <span class="required"> * </span>
+                                    </label>
+                                    <div class="col-md-4">
+                                        <div class="input-icon right">
+                                            <i class="fa"></i>
+                                            <input type="text" ng-model="Note" class="form-control" name="Input5" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-actions">
+                                <div class="row">
+                                    <div class="col-md-offset-3 col-md-9">
+                                        <button type="submit" id="btnDisabledUpdate" ng-click="postdata(PageId,Img,ArtistName,Title,Technique,Size,DateYear,Signature,Note)" class="btn green">Submit</button>
+                                        <button type="button" class="btn default">Cancel</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                        <!-- END FORM-->
+                    </div>
+                </div>
+                <!-- END VALIDATION STATES-->
+            </div>
+        </div>
+
+

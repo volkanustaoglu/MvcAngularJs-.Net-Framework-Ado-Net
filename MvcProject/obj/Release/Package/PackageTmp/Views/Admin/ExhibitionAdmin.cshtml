@@ -1,0 +1,74 @@
+﻿
+@{
+    ViewBag.Title = "ExhibitionAdmin";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<!-- BEGIN CONTENT -->
+<div class="page-content-wrapper">
+    <!-- BEGIN CONTENT BODY -->
+    <div class="page-content">
+        <!-- BEGIN PAGE HEAD-->
+        <!-- END PAGE BREADCRUMB -->
+        <!-- BEGIN PAGE BASE CONTENT -->
+        <div class="row" ng-controller="GetAllExhibitionAdminCTRL">
+            <div class="col-md-12">
+                <!-- BEGIN EXAMPLE TABLE PORTLET-->
+                <div class="portlet light portlet-fit bordered">
+                    <div class="portlet-title">
+                        <div class="caption">
+                            <i class="icon-settings font-red"></i>
+                            <span class="caption-subject font-red sbold uppercase">Exhibition Admin</span>
+                        </div>
+
+                    </div>
+                    <div class="portlet-body">
+                        <div class="table-toolbar">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="btn-group">
+
+                                        <a onclick="window.location.href = '/Admin/CreateExhibition/'" ; class="button btn green">Add New  <i class="fa fa-plus"></i></a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <h1>Bu sayfa henüz tamamlanmadı</h1>
+                        <table class="table table-striped table-hover table-bordered" ng-table="tableParams">
+
+                            <tbody>
+                                
+                                <tr ng-repeat="c in $data">
+                                    <td title="'#'" sortable="'Id'"> {{$index+1}} </td>
+                                    <td title="'Name'" filter="{ Name: 'text'}" sortable="'Name'"> {{c.Name}} </td>
+                                    <td title="'Description'" filter="{ Description: 'text'}" sortable="'Description'"> {{c.Description}} </td>
+                                    
+                                        <a class="edit" data-id="{{c.Id}}" ng-click="GoEditDetailss(c.Id)"> Edit </a>
+                                    </td>
+                                    <td>
+                                        <a class="delete" data-id="{{c.Id}}" ng-click="deletedatass($event)"> Delete </a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <!-- END EXAMPLE TABLE PORTLET-->
+            </div>
+        </div>
+        <!-- END PAGE BASE CONTENT -->
+    </div>
+    <!-- END CONTENT BODY -->
+</div>
+<!-- END CONTENT -->
+<!-- BEGIN QUICK SIDEBAR -->
+
+
+
+@section PageScript
+{
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="~/MyScripts/Admin/ExhibitionAdminController.js"></script>
+}
+

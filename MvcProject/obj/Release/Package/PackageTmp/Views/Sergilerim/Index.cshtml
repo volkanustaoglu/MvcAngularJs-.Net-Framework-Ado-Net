@@ -1,0 +1,160 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<link href="~/Theme/css/components/bs-datatable.css" rel="stylesheet" />
+
+<section id="page-title">
+
+    <div class="container clearfix">
+        <h1>SERGİLERİM</h1>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#" onclick="window.location.href = '/'" ;>Ana Sayfa</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Sergilerim</li>
+        </ol>
+    </div>
+
+</section><!-- #page-title end -->
+
+
+<section id="content">
+    <div class="content-wrap">
+        <div class="container clearfix">
+
+            <div class="row gutter-40 col-mb-80">
+                <!-- Post Content
+                ============================================= -->
+                <div class="postcontent col-lg-9 order-lg-last" ng-controller="GaleriAyarlariCTRL">
+
+
+
+                    <h1>Bu sayfada düzenle sayfası henüz yapılmadı</h1>
+
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="ExhibitionCreatePopup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h4 class="modal-title" id="myModalLabel">Sergi Oluştur</h4>
+                                    <button type="button" class="btn-close btn-sm" data-bs-dismiss="modal" aria-hidden="true"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form name="register-form" class="row" method="post">
+
+
+                                        <div class="w-100"></div>
+
+                                        <div class="col-6 form-group">
+                                            <label for="register-form-name">SERGİ ADI:</label>
+                                            <input type="text" id="register-form-name" ng-model="PostName" name="register-form-name" value="" class="form-control" />
+
+                                        </div>
+
+                                        <div class="col-6 form-group">
+                                            <label for="register-form-name">AÇIKLAMA:</label>
+                                            <input type="text" id="register-form-name" ng-model="PostDescription" name="register-form-name" value="" class="form-control" />
+
+                                        </div>
+
+                                        <div class="w-100"></div>
+
+
+
+
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+                                    <button type="button" class="btn btn-dark m-0" id="btnDisabledUpdateExibition" ng-click="postExhibition(PostName,PostDescription)">Kaydet</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#ExhibitionCreatePopup" class="button button-rounded button-reveal button-medium button-black"><i class="icon-plus"></i><span>SERGİ OLUŞTUR</span></a>
+
+
+                    <div class="table-responsive" ng-show="GetAllExhibitionsData.length >0">
+
+                        <table id="exhibitionsTable" class="table table-striped table-bordered" cellspacing="0" width="100%">
+                            <thead>
+                                <tr>
+                                    <th width="20%">İsim</th>
+                                    <th width="20%">Açıklama</th>
+                                    <th width="10%"></th>
+                                </tr>
+                            </thead>
+                            <tfoot>
+                                <tr>
+                                    <th>İsim</th>
+                                    <th>Açıklama</th>
+                                    <th></th>
+                                </tr>
+                            </tfoot>
+                            <tbody>
+                                <tr ng-repeat="x in GetAllExhibitionsData">
+                                    <td>{{x.Name}}</td>
+                                    <td>{{x.Description}}</td>
+                                    <td>
+                                        <button title="Düzenle" class="button button-mini button-3d button-circle button-yellow button-light"><i class="icon-edit"></i></button>
+                                        <button title="Sil" class="button button-mini button-3d button-circle button-red" ng-click="deletedata(x.Id)"><i class="icon-remove"></i></button>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+
+
+
+
+                </div><!-- .postcontent end -->
+                <!-- Sidebar
+                ============================================= -->
+                <div class="sidebar col-lg-3">
+                    <div class="sidebar-widgets-wrap">
+
+                        <div class="widget clearfix">
+
+                            <div class="list-group">
+                                <a href="#" onclick="window.location.href = '/KullaniciBilgilerim/'" class="list-group-item list-group-item-action d-flex justify-content-between"><div>Kullanıcı Bilgilerim</div><i class="icon-user"></i></a>
+                                <a href="#" onclick="window.location.href = '/AtananSayfalarim/'" class="list-group-item list-group-item-action d-flex justify-content-between"><div>Atanan Sayfalarım</div><i class="icon-edit"></i></a>
+                                @if (User.IsInRole("Gallery"))
+                                {
+                                    <a href="#" onclick="window.location.href = '/Sergilerim/'" class="list-group-item list-group-item-action d-flex justify-content-between"><div>Sergilerim</div><i class="icon-line-trello"></i></a>
+                                    <a href="#" onclick="window.location.href = '/GaleriAyarlari/'" class="list-group-item list-group-item-action d-flex justify-content-between"><div>Galeri Ayarları</div><i class="icon-cog"></i></a>
+
+                                }
+                                <a href="#" onclick="window.location.href = '/Security/Logout/'" ; class="list-group-item list-group-item-action d-flex justify-content-between"><div>Çıkış</div><i class="icon-line2-logout"></i></a>
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+                </div><!-- .sidebar end -->
+            </div>
+
+        </div>
+    </div>
+</section><!-- #content end -->
+
+
+@section PageScript
+{
+    <script src="~/Content/sweetalertjs/sweetalert.min.js"></script>
+    <script src="~/Content/notifyjs/notify.js"></script>
+    <script src="~/Theme/js/components/bs-datatable.js"></script>
+
+    <script src="~/MyScripts/Admin/GaleriAyarlariController.js"></script>
+
+}
+
+

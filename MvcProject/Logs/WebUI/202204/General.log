@@ -1,0 +1,1074 @@
+ 02-04-2022 08:11:55 - Error - System.IndexOutOfRangeException: 0
+   konum: System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: MvcProject.Methods.UserManager.GetUserByName(String username) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\UserManager.cs içinde: satýr 335 - General - System.IndexOutOfRangeException: 0
+   konum: System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: MvcProject.Methods.UserManager.GetUserByName(String username) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\UserManager.cs içinde: satýr 335 - SecurityController.GetUserByNameForCheck => UserManager.GetUserByName => ConnectionManager.Excep
+
+ 02-04-2022 08:11:55 - Error - System.IndexOutOfRangeException: 0
+   konum: System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: MvcProject.Methods.SecurityManager.GetUserByEmail(User entity) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\SecurityManager.cs içinde: satýr 120 - General - System.IndexOutOfRangeException: 0
+   konum: System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: MvcProject.Methods.SecurityManager.GetUserByEmail(User entity) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\SecurityManager.cs içinde: satýr 120 - SecurityController.GetUserByEmailForCheck => SecurityManager.GetUserByEmail => ConnectionManager.Excep
+
+ 02-04-2022 08:39:58 - Error - System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: System.Data.SqlClient.SqlDataReader.Bind(TdsParserStateObject stateObj)
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: MvcProject.Methods.UserManager.GetUser(Int32 id) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\UserManager.cs içinde: satýr 218 - General - System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: System.Data.SqlClient.SqlDataReader.Bind(TdsParserStateObject stateObj)
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: MvcProject.Methods.UserManager.GetUser(Int32 id) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\UserManager.cs içinde: satýr 218 - UserController.GetUserForEdit => UserManager.GetUser => ConnectionManager.Excep
+
+ 02-04-2022 20:51:51 - Error - System.Data.SqlClient.SqlException (0x80131904): Sunucuyla baðlantý kurulurken að ile ilgili veya örneðe özel bir hata oluþtu. Sunucu bulunamadý veya sunucuya eriþilemiyor. Örnek adýnýn doðru olduðunu ve SQL Server'ýn uzak baðlantýlara izin verdiðini doðrulayýn. (provider: Named Pipes Provider, error: 40 - SQL Server için baðlantý açýlamadý) ---> System.ComponentModel.Win32Exception (0x80004005): Uzaktaki sistem taþýma iletiþim kurallarýný desteklemiyor
+   konum: System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.Open()
+   konum: MvcProject.Methods.ConnectionManager.sqlConnect(SqlConnection connect) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\ConnectionManager.cs içinde: satýr 74
+   konum: MvcProject.Methods.SecurityManager.GetLoginUser(User findUser) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\SecurityManager.cs içinde: satýr 50
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:1231,State:0,Class:20 - General - System.Data.SqlClient.SqlException (0x80131904): Sunucuyla baðlantý kurulurken að ile ilgili veya örneðe özel bir hata oluþtu. Sunucu bulunamadý veya sunucuya eriþilemiyor. Örnek adýnýn doðru olduðunu ve SQL Server'ýn uzak baðlantýlara izin verdiðini doðrulayýn. (provider: Named Pipes Provider, error: 40 - SQL Server için baðlantý açýlamadý) ---> System.ComponentModel.Win32Exception (0x80004005): Uzaktaki sistem taþýma iletiþim kurallarýný desteklemiyor
+   konum: System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.Open()
+   konum: MvcProject.Methods.ConnectionManager.sqlConnect(SqlConnection connect) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\ConnectionManager.cs içinde: satýr 74
+   konum: MvcProject.Methods.SecurityManager.GetLoginUser(User findUser) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\SecurityManager.cs içinde: satýr 50
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:1231,State:0,Class:20 - SecurityController.Login => SecurityManager.GetLoginUser => ConnectionManager.Excep
+
+ 02-04-2022 20:51:51 - Error - System.Data.SqlClient.SqlException (0x80131904): Sunucuyla baðlantý kurulurken að ile ilgili veya örneðe özel bir hata oluþtu. Sunucu bulunamadý veya sunucuya eriþilemiyor. Örnek adýnýn doðru olduðunu ve SQL Server'ýn uzak baðlantýlara izin verdiðini doðrulayýn. (provider: Named Pipes Provider, error: 40 - SQL Server için baðlantý açýlamadý) ---> System.ComponentModel.Win32Exception (0x80004005): Uzaktaki sistem taþýma iletiþim kurallarýný desteklemiyor
+   konum: System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   konum: System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   konum: System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   konum: System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.Open()
+   konum: MvcProject.Methods.ConnectionManager.sqlConnect(SqlConnection connect) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\ConnectionManager.cs içinde: satýr 74
+   konum: MvcProject.Methods.SecurityManager.GetLoginUser(User findUser) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\SecurityManager.cs içinde: satýr 50
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:1231,State:0,Class:20 - General - System.Data.SqlClient.SqlException (0x80131904): Sunucuyla baðlantý kurulurken að ile ilgili veya örneðe özel bir hata oluþtu. Sunucu bulunamadý veya sunucuya eriþilemiyor. Örnek adýnýn doðru olduðunu ve SQL Server'ýn uzak baðlantýlara izin verdiðini doðrulayýn. (provider: Named Pipes Provider, error: 40 - SQL Server için baðlantý açýlamadý) ---> System.ComponentModel.Win32Exception (0x80004005): Uzaktaki sistem taþýma iletiþim kurallarýný desteklemiyor
+   konum: System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   konum: System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   konum: System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   konum: System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.Open()
+   konum: MvcProject.Methods.ConnectionManager.sqlConnect(SqlConnection connect) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\ConnectionManager.cs içinde: satýr 74
+   konum: MvcProject.Methods.SecurityManager.GetLoginUser(User findUser) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\SecurityManager.cs içinde: satýr 50
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:1231,State:0,Class:20 - SecurityController.Login => SecurityManager.GetLoginUser => ConnectionManager.Excep
+
+ 03-04-2022 09:05:44 - Error - System.IndexOutOfRangeException: ArtistName
+   konum: System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   konum: System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   konum: System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   konum: MvcProject.Methods.GalleryManager.GetAllGalleriesWithUsername() C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\GalleryManager.cs içinde: satýr 286 - General - System.IndexOutOfRangeException: ArtistName
+   konum: System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   konum: System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   konum: System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   konum: MvcProject.Methods.GalleryManager.GetAllGalleriesWithUsername() C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\GalleryManager.cs içinde: satýr 286 - GalleryController.GetAllGalleriesWithUsername => GalleryManager.GetAllGalleriesWithUsername => ConnectionManager.Excep
+
+ 03-04-2022 09:07:01 - Error - System.Data.SqlClient.SqlException (0x80131904): Baðlantý Zaman Aþýmý Doldu. Oturum açma öncesi el sýkýþma bildirimini kullanmaya çalýþýrken zaman aþýmý süresi doldu. Bunun nedeni oturum açma öncesi el sýkýþmanýn baþarýsýz olmasý veya sunucunun zamanýnda yanýt verememesi olabilir.  Bu sunucuya baðlanmaya çalýþýrken harcanan süre - [Oturum Açma Öncesi] baþlatma=29496; el sýkýþma=511;  ---> System.ComponentModel.Win32Exception (0x80004005): Bekleme iþlem zamaný aþýldý
+   konum: System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   konum: System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   konum: System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   konum: System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.Open()
+   konum: MvcProject.Methods.ConnectionManager.sqlConnect(SqlConnection connect) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\ConnectionManager.cs içinde: satýr 74
+   konum: MvcProject.Methods.UserManager.GetUserByName(String username) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\UserManager.cs içinde: satýr 326
+ClientConnectionId:d53e4de4-5861-4caf-9774-528b771f479f
+Error Number:-2,State:0,Class:11 - General - System.Data.SqlClient.SqlException (0x80131904): Baðlantý Zaman Aþýmý Doldu. Oturum açma öncesi el sýkýþma bildirimini kullanmaya çalýþýrken zaman aþýmý süresi doldu. Bunun nedeni oturum açma öncesi el sýkýþmanýn baþarýsýz olmasý veya sunucunun zamanýnda yanýt verememesi olabilir.  Bu sunucuya baðlanmaya çalýþýrken harcanan süre - [Oturum Açma Öncesi] baþlatma=29496; el sýkýþma=511;  ---> System.ComponentModel.Win32Exception (0x80004005): Bekleme iþlem zamaný aþýldý
+   konum: System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   konum: System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   konum: System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   konum: System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.Open()
+   konum: MvcProject.Methods.ConnectionManager.sqlConnect(SqlConnection connect) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\ConnectionManager.cs içinde: satýr 74
+   konum: MvcProject.Methods.UserManager.GetUserByName(String username) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\UserManager.cs içinde: satýr 326
+ClientConnectionId:d53e4de4-5861-4caf-9774-528b771f479f
+Error Number:-2,State:0,Class:11 - UxRoleProvider.GetRolesForUser => UserManager.GetUserByName => ConnectionManager.Excep
+
+ 03-04-2022 09:07:47 - Error - System.IndexOutOfRangeException: ArtistName
+   konum: System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   konum: System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   konum: System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   konum: MvcProject.Methods.GalleryManager.GetAllGalleriesWithUsername() C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\GalleryManager.cs içinde: satýr 286 - General - System.IndexOutOfRangeException: ArtistName
+   konum: System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   konum: System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   konum: System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   konum: MvcProject.Methods.GalleryManager.GetAllGalleriesWithUsername() C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\GalleryManager.cs içinde: satýr 286 - GalleryController.GetAllGalleriesWithUsername => GalleryManager.GetAllGalleriesWithUsername => ConnectionManager.Excep
+
+ 03-04-2022 09:14:48 - Error - System.Data.SqlClient.SqlException (0x80131904): Sunucuyla baðlantý kurulurken að ile ilgili veya örneðe özel bir hata oluþtu. Sunucu bulunamadý veya sunucuya eriþilemiyor. Örnek adýnýn doðru olduðunu ve SQL Server'ýn uzak baðlantýlara izin verdiðini doðrulayýn. (provider: Named Pipes Provider, error: 40 - SQL Server için baðlantý açýlamadý) ---> System.ComponentModel.Win32Exception (0x80004005): Að yolu bulunamadý
+   konum: System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   konum: System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   konum: System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   konum: System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.Open()
+   konum: MvcProject.Methods.ConnectionManager.sqlConnect(SqlConnection connect) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\ConnectionManager.cs içinde: satýr 74
+   konum: MvcProject.Methods.UserManager.GetUserByName(String username) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\UserManager.cs içinde: satýr 326
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20 - General - System.Data.SqlClient.SqlException (0x80131904): Sunucuyla baðlantý kurulurken að ile ilgili veya örneðe özel bir hata oluþtu. Sunucu bulunamadý veya sunucuya eriþilemiyor. Örnek adýnýn doðru olduðunu ve SQL Server'ýn uzak baðlantýlara izin verdiðini doðrulayýn. (provider: Named Pipes Provider, error: 40 - SQL Server için baðlantý açýlamadý) ---> System.ComponentModel.Win32Exception (0x80004005): Að yolu bulunamadý
+   konum: System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   konum: System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   konum: System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   konum: System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.Open()
+   konum: MvcProject.Methods.ConnectionManager.sqlConnect(SqlConnection connect) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\ConnectionManager.cs içinde: satýr 74
+   konum: MvcProject.Methods.UserManager.GetUserByName(String username) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\UserManager.cs içinde: satýr 326
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20 - UxRoleProvider.GetRolesForUser => UserManager.GetUserByName => ConnectionManager.Excep
+
+ 03-04-2022 09:37:09 - Error - System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'CreateGallery' expects parameter '@Img', which was not supplied.
+   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   konum: MvcProject.Methods.GalleryManager.CreateGallery(Gallery newGallery) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\GalleryManager.cs içinde: satýr 145
+ClientConnectionId:b26ac2b6-599a-4f55-bf17-752a73d8b4ea
+Error Number:201,State:4,Class:16 - General - System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'CreateGallery' expects parameter '@Img', which was not supplied.
+   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   konum: MvcProject.Methods.GalleryManager.CreateGallery(Gallery newGallery) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\GalleryManager.cs içinde: satýr 145
+ClientConnectionId:b26ac2b6-599a-4f55-bf17-752a73d8b4ea
+Error Number:201,State:4,Class:16 - GalleryController.CreateGallery => GalleryManager.CreateGallery => ConnectionManager.Excep
+
+ 03-04-2022 09:43:16 - Error - System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'CreateGallery' expects parameter '@Img', which was not supplied.
+   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   konum: MvcProject.Methods.GalleryManager.CreateGallery(Gallery newGallery) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\GalleryManager.cs içinde: satýr 144
+ClientConnectionId:0ce481dc-a004-4f81-8d14-c900c59287e7
+Error Number:201,State:4,Class:16 - General - System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'CreateGallery' expects parameter '@Img', which was not supplied.
+   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   konum: MvcProject.Methods.GalleryManager.CreateGallery(Gallery newGallery) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\GalleryManager.cs içinde: satýr 144
+ClientConnectionId:0ce481dc-a004-4f81-8d14-c900c59287e7
+Error Number:201,State:4,Class:16 - GalleryController.CreateGallery => GalleryManager.CreateGallery => ConnectionManager.Excep
+
+ 03-04-2022 09:46:10 - Error - System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'CreateGallery' expects parameter '@Img', which was not supplied.
+   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   konum: MvcProject.Methods.GalleryManager.CreateGallery(Gallery newGallery) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\GalleryManager.cs içinde: satýr 144
+ClientConnectionId:dc2e3650-d077-4606-b0fb-9082900c21b5
+Error Number:201,State:4,Class:16 - General - System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'CreateGallery' expects parameter '@Img', which was not supplied.
+   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   konum: MvcProject.Methods.GalleryManager.CreateGallery(Gallery newGallery) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\GalleryManager.cs içinde: satýr 144
+ClientConnectionId:dc2e3650-d077-4606-b0fb-9082900c21b5
+Error Number:201,State:4,Class:16 - GalleryController.CreateGallery => GalleryManager.CreateGallery => ConnectionManager.Excep
+
+ 03-04-2022 09:47:57 - Error - System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'CreateGallery' expects parameter '@Img', which was not supplied.
+   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   konum: MvcProject.Methods.GalleryManager.CreateGallery(Gallery newGallery) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\GalleryManager.cs içinde: satýr 143
+ClientConnectionId:f0df0ef7-6c20-4ed2-9f06-44344e3b9785
+Error Number:201,State:4,Class:16 - General - System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'CreateGallery' expects parameter '@Img', which was not supplied.
+   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   konum: MvcProject.Methods.GalleryManager.CreateGallery(Gallery newGallery) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\GalleryManager.cs içinde: satýr 143
+ClientConnectionId:f0df0ef7-6c20-4ed2-9f06-44344e3b9785
+Error Number:201,State:4,Class:16 - GalleryController.CreateGallery => GalleryManager.CreateGallery => ConnectionManager.Excep
+
+ 03-04-2022 09:51:16 - Error - System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'CreateGallery' expects parameter '@Img', which was not supplied.
+   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   konum: MvcProject.Methods.GalleryManager.CreateGallery(Gallery newGallery) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\GalleryManager.cs içinde: satýr 144
+ClientConnectionId:adb589ae-63d6-458b-ae22-c8224f772db4
+Error Number:201,State:4,Class:16 - General - System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'CreateGallery' expects parameter '@Img', which was not supplied.
+   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   konum: MvcProject.Methods.GalleryManager.CreateGallery(Gallery newGallery) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\GalleryManager.cs içinde: satýr 144
+ClientConnectionId:adb589ae-63d6-458b-ae22-c8224f772db4
+Error Number:201,State:4,Class:16 - GalleryController.CreateGallery => GalleryManager.CreateGallery => ConnectionManager.Excep
+
+ 03-04-2022 11:14:38 - Error - System.Data.SqlClient.SqlException (0x80131904): Yürütme Zaman Aþýmý Süresi Doldu. Zaman aþýmý süresi iþlem tamamlanmadan önce doldu veya sunucu yanýt vermiyor. ---> System.ComponentModel.Win32Exception (0x80004005): Bekleme iþlem zamaný aþýldý
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   konum: System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   konum: System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   konum: System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   konum: System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: MvcProject.Methods.UserManager.GetUserByName(String username) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\UserManager.cs içinde: satýr 335
+ClientConnectionId:9b247883-27e4-4a45-8d5b-19f212b2d980
+Error Number:-2,State:0,Class:11 - General - System.Data.SqlClient.SqlException (0x80131904): Yürütme Zaman Aþýmý Süresi Doldu. Zaman aþýmý süresi iþlem tamamlanmadan önce doldu veya sunucu yanýt vermiyor. ---> System.ComponentModel.Win32Exception (0x80004005): Bekleme iþlem zamaný aþýldý
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   konum: System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   konum: System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   konum: System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   konum: System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: MvcProject.Methods.UserManager.GetUserByName(String username) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\UserManager.cs içinde: satýr 335
+ClientConnectionId:9b247883-27e4-4a45-8d5b-19f212b2d980
+Error Number:-2,State:0,Class:11 - UxRoleProvider.GetRolesForUser => UserManager.GetUserByName => ConnectionManager.Excep
+
+ 03-04-2022 23:09:01 - Error - System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+The 'UpdatePage' procedure attempted to return a status of NULL, which is not allowed. A status of 0 will be returned instead.
+   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   konum: MvcProject.Methods.PageManager.UpdatePage(Page entity) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\PageManager.cs içinde: satýr 254
+ClientConnectionId:48179720-1638-4168-adc8-7f97baeb1f82
+Error Number:8152,State:10,Class:16 - General - System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+The 'UpdatePage' procedure attempted to return a status of NULL, which is not allowed. A status of 0 will be returned instead.
+   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   konum: MvcProject.Methods.PageManager.UpdatePage(Page entity) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\PageManager.cs içinde: satýr 254
+ClientConnectionId:48179720-1638-4168-adc8-7f97baeb1f82
+Error Number:8152,State:10,Class:16 - PageController.UpdatePage => PageManager.UpdatePage => ConnectionManager.Excep
+
+ 07-04-2022 12:01:00 - Error - System.Data.SqlClient.SqlException (0x80131904): Sunucudan sonuçlar alýnýrken aktarým düzeyi hatasý oluþtu. (provider: TCP Provider, error: 0 - Semafor zaman aþýmý süresi geçildi.) ---> System.ComponentModel.Win32Exception (0x80004005): Semafor zaman aþýmý süresi geçildi
+   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   konum: System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   konum: System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   konum: System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   konum: System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: MvcProject.Methods.UserManager.GetUserByName(String username) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\UserManager.cs içinde: satýr 335
+ClientConnectionId:9f757994-1e2b-41ab-918a-baaf131b5601
+Error Number:121,State:0,Class:20 - General - System.Data.SqlClient.SqlException (0x80131904): Sunucudan sonuçlar alýnýrken aktarým düzeyi hatasý oluþtu. (provider: TCP Provider, error: 0 - Semafor zaman aþýmý süresi geçildi.) ---> System.ComponentModel.Win32Exception (0x80004005): Semafor zaman aþýmý süresi geçildi
+   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   konum: System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   konum: System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   konum: System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   konum: System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: MvcProject.Methods.UserManager.GetUserByName(String username) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\UserManager.cs içinde: satýr 335
+ClientConnectionId:9f757994-1e2b-41ab-918a-baaf131b5601
+Error Number:121,State:0,Class:20 - UxRoleProvider.GetRolesForUser => UserManager.GetUserByName => ConnectionManager.Excep
+
+ 07-04-2022 13:48:03 - Error - System.Data.SqlClient.SqlException (0x80131904): Sunucuyla baðlantý kurulurken að ile ilgili veya örneðe özel bir hata oluþtu. Sunucu bulunamadý veya sunucuya eriþilemiyor. Örnek adýnýn doðru olduðunu ve SQL Server'ýn uzak baðlantýlara izin verdiðini doðrulayýn. (provider: Named Pipes Provider, error: 40 - SQL Server için baðlantý açýlamadý) ---> System.ComponentModel.Win32Exception (0x80004005): Uzaktaki sistem taþýma iletiþim kurallarýný desteklemiyor
+   konum: System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   konum: System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   konum: System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   konum: System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.Open()
+   konum: MvcProject.Methods.ConnectionManager.sqlConnect(SqlConnection connect) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\ConnectionManager.cs içinde: satýr 74
+   konum: MvcProject.Methods.PageManager.GetPagesByPageKey(String id) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\PageManager.cs içinde: satýr 405
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:1231,State:0,Class:20 - General - System.Data.SqlClient.SqlException (0x80131904): Sunucuyla baðlantý kurulurken að ile ilgili veya örneðe özel bir hata oluþtu. Sunucu bulunamadý veya sunucuya eriþilemiyor. Örnek adýnýn doðru olduðunu ve SQL Server'ýn uzak baðlantýlara izin verdiðini doðrulayýn. (provider: Named Pipes Provider, error: 40 - SQL Server için baðlantý açýlamadý) ---> System.ComponentModel.Win32Exception (0x80004005): Uzaktaki sistem taþýma iletiþim kurallarýný desteklemiyor
+   konum: System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   konum: System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   konum: System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   konum: System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.Open()
+   konum: MvcProject.Methods.ConnectionManager.sqlConnect(SqlConnection connect) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\ConnectionManager.cs içinde: satýr 74
+   konum: MvcProject.Methods.PageManager.GetPagesByPageKey(String id) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\PageManager.cs içinde: satýr 405
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:1231,State:0,Class:20 - PageController.GetPagesByPageKey => PageManager.GetPagesByPageKey => ConnectionManager.Excep
+
+ 07-04-2022 13:48:03 - Error - System.Data.SqlClient.SqlException (0x80131904): Sunucuyla baðlantý kurulurken að ile ilgili veya örneðe özel bir hata oluþtu. Sunucu bulunamadý veya sunucuya eriþilemiyor. Örnek adýnýn doðru olduðunu ve SQL Server'ýn uzak baðlantýlara izin verdiðini doðrulayýn. (provider: Named Pipes Provider, error: 40 - SQL Server için baðlantý açýlamadý) ---> System.ComponentModel.Win32Exception (0x80004005): Uzaktaki sistem taþýma iletiþim kurallarýný desteklemiyor
+   konum: System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.Open()
+   konum: MvcProject.Methods.ConnectionManager.sqlConnect(SqlConnection connect) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\ConnectionManager.cs içinde: satýr 74
+   konum: MvcProject.Methods.PageManager.GetPagesByPageKey(String id) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\PageManager.cs içinde: satýr 405
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:1231,State:0,Class:20 - General - System.Data.SqlClient.SqlException (0x80131904): Sunucuyla baðlantý kurulurken að ile ilgili veya örneðe özel bir hata oluþtu. Sunucu bulunamadý veya sunucuya eriþilemiyor. Örnek adýnýn doðru olduðunu ve SQL Server'ýn uzak baðlantýlara izin verdiðini doðrulayýn. (provider: Named Pipes Provider, error: 40 - SQL Server için baðlantý açýlamadý) ---> System.ComponentModel.Win32Exception (0x80004005): Uzaktaki sistem taþýma iletiþim kurallarýný desteklemiyor
+   konum: System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.Open()
+   konum: MvcProject.Methods.ConnectionManager.sqlConnect(SqlConnection connect) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\ConnectionManager.cs içinde: satýr 74
+   konum: MvcProject.Methods.PageManager.GetPagesByPageKey(String id) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\PageManager.cs içinde: satýr 405
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:1231,State:0,Class:20 - PageController.GetPagesByPageKey => PageManager.GetPagesByPageKey => ConnectionManager.Excep
+
+ 07-04-2022 14:59:51 - Error - System.Data.SqlClient.SqlException (0x80131904): Sunucuyla baðlantý kurulurken að ile ilgili veya örneðe özel bir hata oluþtu. Sunucu bulunamadý veya sunucuya eriþilemiyor. Örnek adýnýn doðru olduðunu ve SQL Server'ýn uzak baðlantýlara izin verdiðini doðrulayýn. (provider: Named Pipes Provider, error: 40 - SQL Server için baðlantý açýlamadý) ---> System.ComponentModel.Win32Exception (0x80004005): Uzaktaki sistem taþýma iletiþim kurallarýný desteklemiyor
+   konum: System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   konum: System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   konum: System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   konum: System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.Open()
+   konum: MvcProject.Methods.ConnectionManager.sqlConnect(SqlConnection connect) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\ConnectionManager.cs içinde: satýr 74
+   konum: MvcProject.Methods.PageManager.GetPagesByPageKey(String id) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\PageManager.cs içinde: satýr 405
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:1231,State:0,Class:20 - General - System.Data.SqlClient.SqlException (0x80131904): Sunucuyla baðlantý kurulurken að ile ilgili veya örneðe özel bir hata oluþtu. Sunucu bulunamadý veya sunucuya eriþilemiyor. Örnek adýnýn doðru olduðunu ve SQL Server'ýn uzak baðlantýlara izin verdiðini doðrulayýn. (provider: Named Pipes Provider, error: 40 - SQL Server için baðlantý açýlamadý) ---> System.ComponentModel.Win32Exception (0x80004005): Uzaktaki sistem taþýma iletiþim kurallarýný desteklemiyor
+   konum: System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   konum: System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   konum: System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   konum: System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   konum: System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   konum: System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   konum: System.Data.SqlClient.SqlConnection.Open()
+   konum: MvcProject.Methods.ConnectionManager.sqlConnect(SqlConnection connect) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\ConnectionManager.cs içinde: satýr 74
+   konum: MvcProject.Methods.PageManager.GetPagesByPageKey(String id) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\PageManager.cs içinde: satýr 405
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:1231,State:0,Class:20 - PageController.GetPagesByPageKey => PageManager.GetPagesByPageKey => ConnectionManager.Excep
+
+ 07-04-2022 21:47:50 - Error - System.Data.SqlClient.SqlException (0x80131904): Sunucudan sonuçlar alýnýrken aktarým düzeyi hatasý oluþtu. (provider: TCP Provider, error: 0 - Að baðlantýsý yerel sistem tarafýndan reddedildi.) ---> System.ComponentModel.Win32Exception (0x80004005): Að baðlantýsý yerel sistem tarafýndan reddedildi
+   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   konum: System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   konum: System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   konum: System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   konum: System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: MvcProject.Methods.UserManager.GetUserByName(String username) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\UserManager.cs içinde: satýr 335
+ClientConnectionId:7d88a516-ff7e-4210-b8f1-539765479389
+Error Number:1236,State:0,Class:20 - General - System.Data.SqlClient.SqlException (0x80131904): Sunucudan sonuçlar alýnýrken aktarým düzeyi hatasý oluþtu. (provider: TCP Provider, error: 0 - Að baðlantýsý yerel sistem tarafýndan reddedildi.) ---> System.ComponentModel.Win32Exception (0x80004005): Að baðlantýsý yerel sistem tarafýndan reddedildi
+   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   konum: System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   konum: System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   konum: System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   konum: System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: MvcProject.Methods.UserManager.GetUserByName(String username) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\UserManager.cs içinde: satýr 335
+ClientConnectionId:7d88a516-ff7e-4210-b8f1-539765479389
+Error Number:1236,State:0,Class:20 - UxRoleProvider.GetRolesForUser => UserManager.GetUserByName => ConnectionManager.Excep
+
+ 10-04-2022 11:31:33 - Error - System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: System.Data.SqlClient.SqlCommand.ResetEncryptionState()
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: MvcProject.Methods.UserManager.GetUser(Int32 id) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\UserManager.cs içinde: satýr 218 - General - System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: System.Data.SqlClient.SqlCommand.ResetEncryptionState()
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: MvcProject.Methods.UserManager.GetUser(Int32 id) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\UserManager.cs içinde: satýr 218 - UserController.GetUserForEdit => UserManager.GetUser => ConnectionManager.Excep
+
+ 10-04-2022 11:31:33 - Error - System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: System.Data.SqlClient.SqlCommand.ResetEncryptionState()
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: MvcProject.Methods.UserManager.GetUser(Int32 id) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\UserManager.cs içinde: satýr 218 - General - System.NullReferenceException: Nesne baþvurusu bir nesnenin örneðine ayarlanmadý.
+   konum: System.Data.SqlClient.SqlCommand.ResetEncryptionState()
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: MvcProject.Methods.UserManager.GetUser(Int32 id) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\UserManager.cs içinde: satýr 218 - UserController.GetUserForEdit => UserManager.GetUser => ConnectionManager.Excep
+
+ 12-04-2022 23:21:54 - Error - System.Data.SqlClient.SqlException (0x80131904): Procedure or function CreatePage has too many arguments specified.
+   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   konum: MvcProject.Methods.ExhibitionManager.CreateExhibition(Exhibition newEx) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\ExhibitionManager.cs içinde: satýr 143
+ClientConnectionId:28a60011-4b51-45f2-926a-4657741b1403
+Error Number:8144,State:2,Class:16 - General - System.Data.SqlClient.SqlException (0x80131904): Procedure or function CreatePage has too many arguments specified.
+   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   konum: MvcProject.Methods.ExhibitionManager.CreateExhibition(Exhibition newEx) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\ExhibitionManager.cs içinde: satýr 143
+ClientConnectionId:28a60011-4b51-45f2-926a-4657741b1403
+Error Number:8144,State:2,Class:16 - ExhibitionController.CreateExhibition => ExhibitionManager.CreateExhibition => ConnectionManager.Excep
+
+ 12-04-2022 23:26:49 - Error - System.Data.SqlClient.SqlException (0x80131904): Procedure or function CreatePage has too many arguments specified.
+   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   konum: MvcProject.Methods.ExhibitionManager.CreateExhibition(Exhibition newEx) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\ExhibitionManager.cs içinde: satýr 143
+ClientConnectionId:97ebeb4b-08bc-4d59-9bff-3b2e3563a469
+Error Number:8144,State:2,Class:16 - General - System.Data.SqlClient.SqlException (0x80131904): Procedure or function CreatePage has too many arguments specified.
+   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   konum: MvcProject.Methods.ExhibitionManager.CreateExhibition(Exhibition newEx) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\ExhibitionManager.cs içinde: satýr 143
+ClientConnectionId:97ebeb4b-08bc-4d59-9bff-3b2e3563a469
+Error Number:8144,State:2,Class:16 - ExhibitionController.CreateExhibition => ExhibitionManager.CreateExhibition => ConnectionManager.Excep
+
+ 13-04-2022 08:42:41 - Error - System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'CreateExhibition' expects parameter '@Name', which was not supplied.
+   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   konum: MvcProject.Methods.ExhibitionManager.CreateExhibition(Exhibition newEx) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\ExhibitionManager.cs içinde: satýr 143
+ClientConnectionId:f5287dc2-3731-48ea-b9e7-fa856a5c726e
+Error Number:201,State:4,Class:16 - General - System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'CreateExhibition' expects parameter '@Name', which was not supplied.
+   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   konum: MvcProject.Methods.ExhibitionManager.CreateExhibition(Exhibition newEx) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\ExhibitionManager.cs içinde: satýr 143
+ClientConnectionId:f5287dc2-3731-48ea-b9e7-fa856a5c726e
+Error Number:201,State:4,Class:16 - ExhibitionController.CreateExhibition => ExhibitionManager.CreateExhibition => ConnectionManager.Excep
+
+ 16-04-2022 09:04:08 - Error - System.InvalidCastException: Nesne, DBNull'dan diðer türlere atanamaz.
+   konum: System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   konum: System.Convert.ToInt32(Object value)
+   konum: MvcProject.Methods.PageManager.GetPagesByUserId(Page findPage) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\PageManager.cs içinde: satýr 328 - General - System.InvalidCastException: Nesne, DBNull'dan diðer türlere atanamaz.
+   konum: System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   konum: System.Convert.ToInt32(Object value)
+   konum: MvcProject.Methods.PageManager.GetPagesByUserId(Page findPage) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\PageManager.cs içinde: satýr 328 - PageController.GetPagesByUserId => PageManager.GetPagesByUserId => ConnectionManager.Excep
+
+ 16-04-2022 09:04:21 - Error - System.InvalidCastException: Nesne, DBNull'dan diðer türlere atanamaz.
+   konum: System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   konum: System.Convert.ToInt32(Object value)
+   konum: MvcProject.Methods.PageManager.GetPagesByUserId(Page findPage) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\PageManager.cs içinde: satýr 328 - General - System.InvalidCastException: Nesne, DBNull'dan diðer türlere atanamaz.
+   konum: System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   konum: System.Convert.ToInt32(Object value)
+   konum: MvcProject.Methods.PageManager.GetPagesByUserId(Page findPage) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\PageManager.cs içinde: satýr 328 - PageController.GetPagesByUserId => PageManager.GetPagesByUserId => ConnectionManager.Excep
+
+ 16-04-2022 09:04:40 - Error - System.InvalidCastException: Nesne, DBNull'dan diðer türlere atanamaz.
+   konum: System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   konum: System.Convert.ToInt32(Object value)
+   konum: MvcProject.Methods.PageManager.GetPagesByUserId(Page findPage) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\PageManager.cs içinde: satýr 328 - General - System.InvalidCastException: Nesne, DBNull'dan diðer türlere atanamaz.
+   konum: System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   konum: System.Convert.ToInt32(Object value)
+   konum: MvcProject.Methods.PageManager.GetPagesByUserId(Page findPage) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\PageManager.cs içinde: satýr 328 - PageController.GetPagesByUserId => PageManager.GetPagesByUserId => ConnectionManager.Excep
+
+ 16-04-2022 09:04:48 - Error - System.InvalidCastException: Nesne, DBNull'dan diðer türlere atanamaz.
+   konum: System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   konum: System.Convert.ToInt32(Object value)
+   konum: MvcProject.Methods.PageManager.GetPagesByUserId(Page findPage) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\PageManager.cs içinde: satýr 328 - General - System.InvalidCastException: Nesne, DBNull'dan diðer türlere atanamaz.
+   konum: System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   konum: System.Convert.ToInt32(Object value)
+   konum: MvcProject.Methods.PageManager.GetPagesByUserId(Page findPage) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\PageManager.cs içinde: satýr 328 - PageController.GetPagesByUserId => PageManager.GetPagesByUserId => ConnectionManager.Excep
+
+ 16-04-2022 09:04:51 - Error - System.InvalidCastException: Nesne, DBNull'dan diðer türlere atanamaz.
+   konum: System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   konum: System.Convert.ToInt32(Object value)
+   konum: MvcProject.Methods.PageManager.GetPagesByUserId(Page findPage) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\PageManager.cs içinde: satýr 328 - General - System.InvalidCastException: Nesne, DBNull'dan diðer türlere atanamaz.
+   konum: System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   konum: System.Convert.ToInt32(Object value)
+   konum: MvcProject.Methods.PageManager.GetPagesByUserId(Page findPage) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\PageManager.cs içinde: satýr 328 - PageController.GetPagesByUserId => PageManager.GetPagesByUserId => ConnectionManager.Excep
+
+ 16-04-2022 09:04:53 - Error - System.InvalidCastException: Nesne, DBNull'dan diðer türlere atanamaz.
+   konum: System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   konum: System.Convert.ToInt32(Object value)
+   konum: MvcProject.Methods.PageManager.GetPagesByUserId(Page findPage) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\PageManager.cs içinde: satýr 328 - General - System.InvalidCastException: Nesne, DBNull'dan diðer türlere atanamaz.
+   konum: System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   konum: System.Convert.ToInt32(Object value)
+   konum: MvcProject.Methods.PageManager.GetPagesByUserId(Page findPage) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\PageManager.cs içinde: satýr 328 - PageController.GetPagesByUserId => PageManager.GetPagesByUserId => ConnectionManager.Excep
+
+ 16-04-2022 09:04:57 - Error - System.InvalidCastException: Nesne, DBNull'dan diðer türlere atanamaz.
+   konum: System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   konum: System.Convert.ToInt32(Object value)
+   konum: MvcProject.Methods.PageManager.GetPagesByUserId(Page findPage) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\PageManager.cs içinde: satýr 328 - General - System.InvalidCastException: Nesne, DBNull'dan diðer türlere atanamaz.
+   konum: System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   konum: System.Convert.ToInt32(Object value)
+   konum: MvcProject.Methods.PageManager.GetPagesByUserId(Page findPage) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\PageManager.cs içinde: satýr 328 - PageController.GetPagesByUserId => PageManager.GetPagesByUserId => ConnectionManager.Excep
+
+ 16-04-2022 09:04:58 - Error - System.InvalidCastException: Nesne, DBNull'dan diðer türlere atanamaz.
+   konum: System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   konum: System.Convert.ToInt32(Object value)
+   konum: MvcProject.Methods.PageManager.GetPagesByUserId(Page findPage) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\PageManager.cs içinde: satýr 328 - General - System.InvalidCastException: Nesne, DBNull'dan diðer türlere atanamaz.
+   konum: System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   konum: System.Convert.ToInt32(Object value)
+   konum: MvcProject.Methods.PageManager.GetPagesByUserId(Page findPage) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\PageManager.cs içinde: satýr 328 - PageController.GetPagesByUserId => PageManager.GetPagesByUserId => ConnectionManager.Excep
+
+ 16-04-2022 09:04:59 - Error - System.InvalidCastException: Nesne, DBNull'dan diðer türlere atanamaz.
+   konum: System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   konum: System.Convert.ToInt32(Object value)
+   konum: MvcProject.Methods.PageManager.GetPagesByUserId(Page findPage) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\PageManager.cs içinde: satýr 328 - General - System.InvalidCastException: Nesne, DBNull'dan diðer türlere atanamaz.
+   konum: System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   konum: System.Convert.ToInt32(Object value)
+   konum: MvcProject.Methods.PageManager.GetPagesByUserId(Page findPage) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\PageManager.cs içinde: satýr 328 - PageController.GetPagesByUserId => PageManager.GetPagesByUserId => ConnectionManager.Excep
+
+ 16-04-2022 09:05:00 - Error - System.InvalidCastException: Nesne, DBNull'dan diðer türlere atanamaz.
+   konum: System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   konum: System.Convert.ToInt32(Object value)
+   konum: MvcProject.Methods.PageManager.GetPagesByUserId(Page findPage) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\PageManager.cs içinde: satýr 328 - General - System.InvalidCastException: Nesne, DBNull'dan diðer türlere atanamaz.
+   konum: System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   konum: System.Convert.ToInt32(Object value)
+   konum: MvcProject.Methods.PageManager.GetPagesByUserId(Page findPage) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\PageManager.cs içinde: satýr 328 - PageController.GetPagesByUserId => PageManager.GetPagesByUserId => ConnectionManager.Excep
+
+ 16-04-2022 09:05:01 - Error - System.InvalidCastException: Nesne, DBNull'dan diðer türlere atanamaz.
+   konum: System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   konum: System.Convert.ToInt32(Object value)
+   konum: MvcProject.Methods.PageManager.GetPagesByUserId(Page findPage) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\PageManager.cs içinde: satýr 328 - General - System.InvalidCastException: Nesne, DBNull'dan diðer türlere atanamaz.
+   konum: System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   konum: System.Convert.ToInt32(Object value)
+   konum: MvcProject.Methods.PageManager.GetPagesByUserId(Page findPage) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\PageManager.cs içinde: satýr 328 - PageController.GetPagesByUserId => PageManager.GetPagesByUserId => ConnectionManager.Excep
+
+ 16-04-2022 09:06:14 - Error - System.InvalidCastException: Nesne, DBNull'dan diðer türlere atanamaz.
+   konum: System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   konum: System.Convert.ToInt32(Object value)
+   konum: MvcProject.Methods.PageManager.GetPagesByUserId(Page findPage) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\PageManager.cs içinde: satýr 328 - General - System.InvalidCastException: Nesne, DBNull'dan diðer türlere atanamaz.
+   konum: System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   konum: System.Convert.ToInt32(Object value)
+   konum: MvcProject.Methods.PageManager.GetPagesByUserId(Page findPage) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\PageManager.cs içinde: satýr 328 - PageController.GetPagesByUserId => PageManager.GetPagesByUserId => ConnectionManager.Excep
+
+ 16-04-2022 09:06:31 - Error - System.InvalidCastException: Nesne, DBNull'dan diðer türlere atanamaz.
+   konum: System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   konum: System.Convert.ToInt32(Object value)
+   konum: MvcProject.Methods.PageManager.GetPagesByUserId(Page findPage) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\PageManager.cs içinde: satýr 328 - General - System.InvalidCastException: Nesne, DBNull'dan diðer türlere atanamaz.
+   konum: System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   konum: System.Convert.ToInt32(Object value)
+   konum: MvcProject.Methods.PageManager.GetPagesByUserId(Page findPage) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\PageManager.cs içinde: satýr 328 - PageController.GetPagesByUserId => PageManager.GetPagesByUserId => ConnectionManager.Excep
+
+ 16-04-2022 09:08:03 - Error - System.InvalidCastException: Nesne, DBNull'dan diðer türlere atanamaz.
+   konum: System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   konum: System.Convert.ToInt32(Object value)
+   konum: MvcProject.Methods.PageManager.GetPagesByUserId(Page findPage) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\PageManager.cs içinde: satýr 328 - General - System.InvalidCastException: Nesne, DBNull'dan diðer türlere atanamaz.
+   konum: System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   konum: System.Convert.ToInt32(Object value)
+   konum: MvcProject.Methods.PageManager.GetPagesByUserId(Page findPage) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\PageManager.cs içinde: satýr 328 - PageController.GetPagesByUserId => PageManager.GetPagesByUserId => ConnectionManager.Excep
+
+ 16-04-2022 14:19:01 - Error - System.IndexOutOfRangeException: ExhibitionId
+   konum: System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   konum: System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   konum: System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   konum: MvcProject.Methods.PageManager.GetPageWithUsername(Int32 Id) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\PageManager.cs içinde: satýr 561 - General - System.IndexOutOfRangeException: ExhibitionId
+   konum: System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   konum: System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   konum: System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   konum: MvcProject.Methods.PageManager.GetPageWithUsername(Int32 Id) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\PageManager.cs içinde: satýr 561 - PageController.GetPageWithUsername => PageManager.GetPageWithUsername => ConnectionManager.Excep
+
+ 16-04-2022 14:20:24 - Error - System.IndexOutOfRangeException: ExhibitionId
+   konum: System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   konum: System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   konum: System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   konum: MvcProject.Methods.PageManager.GetPageWithUsername(Int32 Id) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\PageManager.cs içinde: satýr 561 - General - System.IndexOutOfRangeException: ExhibitionId
+   konum: System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   konum: System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   konum: System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   konum: MvcProject.Methods.PageManager.GetPageWithUsername(Int32 Id) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\PageManager.cs içinde: satýr 561 - PageController.GetPageWithUsername => PageManager.GetPageWithUsername => ConnectionManager.Excep
+
+ 17-04-2022 11:22:45 - Error - System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'CreateExhibition' expects parameter '@Name', which was not supplied.
+   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   konum: MvcProject.Methods.ExhibitionManager.CreateExhibition(Exhibition newEx) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\ExhibitionManager.cs içinde: satýr 143
+ClientConnectionId:29a83c81-94ea-48b2-ad9d-19bf2cf2071f
+Error Number:201,State:4,Class:16 - General - System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'CreateExhibition' expects parameter '@Name', which was not supplied.
+   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   konum: MvcProject.Methods.ExhibitionManager.CreateExhibition(Exhibition newEx) C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\ExhibitionManager.cs içinde: satýr 143
+ClientConnectionId:29a83c81-94ea-48b2-ad9d-19bf2cf2071f
+Error Number:201,State:4,Class:16 - ExhibitionController.CreateExhibition => ExhibitionManager.CreateExhibition => ConnectionManager.Excep
+
+ 17-04-2022 15:55:10 - Error - System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'dbo.GetAllExhibitions'.
+   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: MvcProject.Methods.ExhibitionManager.GetAllExhibitions() C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\ExhibitionManager.cs içinde: satýr 51
+ClientConnectionId:40f36f19-f71f-4c4f-8a86-7dc170394b41
+Error Number:2812,State:62,Class:16 - General - System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'dbo.GetAllExhibitions'.
+   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: MvcProject.Methods.ExhibitionManager.GetAllExhibitions() C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\ExhibitionManager.cs içinde: satýr 51
+ClientConnectionId:40f36f19-f71f-4c4f-8a86-7dc170394b41
+Error Number:2812,State:62,Class:16 - ExhibitionController.GetAllExhibitions => ExhibitionManager.GetAllExhibitions => ConnectionManager.Excep
+
+ 17-04-2022 15:56:11 - Error - System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'dbo.GetAllExhibitions'.
+   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: MvcProject.Methods.ExhibitionManager.GetAllExhibitions() C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\ExhibitionManager.cs içinde: satýr 51
+ClientConnectionId:40f36f19-f71f-4c4f-8a86-7dc170394b41
+Error Number:2812,State:62,Class:16 - General - System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'dbo.GetAllExhibitions'.
+   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: MvcProject.Methods.ExhibitionManager.GetAllExhibitions() C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\ExhibitionManager.cs içinde: satýr 51
+ClientConnectionId:40f36f19-f71f-4c4f-8a86-7dc170394b41
+Error Number:2812,State:62,Class:16 - ExhibitionController.GetAllExhibitions => ExhibitionManager.GetAllExhibitions => ConnectionManager.Excep
+
+ 17-04-2022 15:57:02 - Error - System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'dbo.GetAllExhibitions'.
+   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: MvcProject.Methods.ExhibitionManager.GetAllExhibitions() C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\ExhibitionManager.cs içinde: satýr 51
+ClientConnectionId:068686be-fc3e-43eb-8830-fd052044ad0a
+Error Number:2812,State:62,Class:16 - General - System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'dbo.GetAllExhibitions'.
+   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: MvcProject.Methods.ExhibitionManager.GetAllExhibitions() C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\ExhibitionManager.cs içinde: satýr 51
+ClientConnectionId:068686be-fc3e-43eb-8830-fd052044ad0a
+Error Number:2812,State:62,Class:16 - ExhibitionController.GetAllExhibitions => ExhibitionManager.GetAllExhibitions => ConnectionManager.Excep
+
+ 17-04-2022 15:57:38 - Error - System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'dbo.GetAllExhibitions'.
+   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: MvcProject.Methods.ExhibitionManager.GetAllExhibitions() C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\ExhibitionManager.cs içinde: satýr 51
+ClientConnectionId:068686be-fc3e-43eb-8830-fd052044ad0a
+Error Number:2812,State:62,Class:16 - General - System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'dbo.GetAllExhibitions'.
+   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: MvcProject.Methods.ExhibitionManager.GetAllExhibitions() C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\ExhibitionManager.cs içinde: satýr 51
+ClientConnectionId:068686be-fc3e-43eb-8830-fd052044ad0a
+Error Number:2812,State:62,Class:16 - ExhibitionController.GetAllExhibitions => ExhibitionManager.GetAllExhibitions => ConnectionManager.Excep
+
+ 17-04-2022 15:58:49 - Error - System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'dbo.GetAllExhibitions'.
+   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: MvcProject.Methods.ExhibitionManager.GetAllExhibitions() C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\ExhibitionManager.cs içinde: satýr 51
+ClientConnectionId:068686be-fc3e-43eb-8830-fd052044ad0a
+Error Number:2812,State:62,Class:16 - General - System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'dbo.GetAllExhibitions'.
+   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: MvcProject.Methods.ExhibitionManager.GetAllExhibitions() C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\ExhibitionManager.cs içinde: satýr 51
+ClientConnectionId:068686be-fc3e-43eb-8830-fd052044ad0a
+Error Number:2812,State:62,Class:16 - ExhibitionController.GetAllExhibitions => ExhibitionManager.GetAllExhibitions => ConnectionManager.Excep
+
+ 17-04-2022 15:59:03 - Error - System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'dbo.GetAllExhibitions'.
+   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: MvcProject.Methods.ExhibitionManager.GetAllExhibitions() C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\ExhibitionManager.cs içinde: satýr 51
+ClientConnectionId:068686be-fc3e-43eb-8830-fd052044ad0a
+Error Number:2812,State:62,Class:16 - General - System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'dbo.GetAllExhibitions'.
+   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: MvcProject.Methods.ExhibitionManager.GetAllExhibitions() C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\ExhibitionManager.cs içinde: satýr 51
+ClientConnectionId:068686be-fc3e-43eb-8830-fd052044ad0a
+Error Number:2812,State:62,Class:16 - ExhibitionController.GetAllExhibitions => ExhibitionManager.GetAllExhibitions => ConnectionManager.Excep
+
+ 17-04-2022 16:00:07 - Error - System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'dbo.GetAllExhibitions'.
+   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: MvcProject.Methods.ExhibitionManager.GetAllExhibitions() C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\ExhibitionManager.cs içinde: satýr 51
+ClientConnectionId:068686be-fc3e-43eb-8830-fd052044ad0a
+Error Number:2812,State:62,Class:16 - General - System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'dbo.GetAllExhibitions'.
+   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   konum: System.Data.SqlClient.SqlDataReader.get_MetaData()
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteReader()
+   konum: MvcProject.Methods.ExhibitionManager.GetAllExhibitions() C:\Users\vyust\Desktop\CuratorTagProject\MvcProject\Methods\ExhibitionManager.cs içinde: satýr 51
+ClientConnectionId:068686be-fc3e-43eb-8830-fd052044ad0a
+Error Number:2812,State:62,Class:16 - ExhibitionController.GetAllExhibitions => ExhibitionManager.GetAllExhibitions => ConnectionManager.Excep
+

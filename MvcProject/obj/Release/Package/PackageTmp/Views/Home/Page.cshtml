@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "Page";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Page</h2>
+
+<div ng-controller="ViewPageDetailsCTRL">
+    <div ng-view></div>
+</div>
+
+@section PageScript {
+    <script src="~/MyScripts/Admin/AtananSayfalarimController.js"></script>
+
+}
+

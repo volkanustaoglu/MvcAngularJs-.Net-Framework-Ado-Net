@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewBag.Title = "EditGallery";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+@section PageCSS
+
+    {
+
+    <link href="~/Content/Bootstrap-Fileinput/bootstrap-fileinput.css" rel="stylesheet" />
+
+
+}
+
+<div ng-controller="EditGalleryDetailsCTRL">
+
+    <div ng-view></div>
+
+</div>
+@section PageScript {
+
+    <script src="~/Content/Bootstrap-Fileinput/bootstrap-fileinput.js"></script>
+    <script src="~/MyScripts/Admin/GalleryAdminController.js"></script>
+
+
+}
+
+

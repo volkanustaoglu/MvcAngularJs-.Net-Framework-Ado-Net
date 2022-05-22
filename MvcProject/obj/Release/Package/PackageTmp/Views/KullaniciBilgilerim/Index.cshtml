@@ -1,0 +1,168 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section PageCSS
+{
+
+    <link href="~/MetronicAdmin/assets/build/css/intlTelInput.css" rel="stylesheet" />
+    <style>
+        .intl-tel-input {
+            width: 100%;
+        }
+
+
+
+        .iti {
+            position: relative;
+            display: inline-block;
+            width: 100%;
+        }
+    </style>
+
+
+}
+<!-- Page Title
+        ============================================= -->
+<section id="page-title">
+
+    <div class="container clearfix">
+        <h1>KULLANICI BİLGİLERİM</h1>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#" onclick="window.location.href = '/'" ;>Ana Sayfa</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Kullanıcı Bilgilerim</li>
+        </ol>
+    </div>
+
+</section><!-- #page-title end -->
+
+
+<section id="content">
+    <div class="content-wrap">
+        <div class="container clearfix">
+
+            <div class="row gutter-40 col-mb-80">
+                <!-- Post Content
+                ============================================= -->
+                <div class="postcontent col-lg-9 order-lg-last" ng-controller="KullaniciBilgilerimCTRL">
+
+                    <div class="col-md-12">
+
+
+
+                        <form name="register-form" class="row" method="post">
+
+                            <div class="col-6 form-group">
+                                <label for="register-form-name">Kullanıcı Adı:</label>
+                                <input type="text" id="register-form-name" ng-change="checkRegisterUsername()" ng-model="Username" name="register-form-name" value="" class="form-control" />
+                                <div class="form-group has-error" ng-show="usernameRegisterSituation==true">
+                                    <span id="username-error" class="text-danger"></span>
+                                </div>
+                            </div>
+
+                            <div class="col-6 form-group">
+                                <label for="register-form-email">EMAİL:</label>
+                                <input type="text" id="email-error" ng-change="checkRegisterEmail()" ng-model="Email" name="register-form-email" value="" class="form-control" />
+                                <div class="form-group has-error" ng-show="emailRegisterSituation==true">
+                                    <span id="email2-error" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="w-100"></div>
+                            <div class="col-6 form-group">
+                                <label for="register-form-email">YENİ ŞİFRE:</label>
+                                <input type="text" id="password-error" ng-model="Password" name="register-form-email" value="" class="form-control" />
+                            </div>
+                            <div class="col-6 form-group">
+                                <label for="register-form-email">AD SOYAD:</label>
+                                <input type="text" id="namesurname-error" ng-model="NameSurname" name="register-form-email" value="" class="form-control" />
+                            </div>
+                            <div class="w-100"></div>
+                            <div class="col-6 form-group">
+                                <label for="register-form-email">TELEFON:</label><br />
+                                <input id="phone" name="phone" type="tel" value="" class="form-control" />
+                            </div>
+
+                            <div class="col-6 form-group">
+                                <label for="register-form-email">Adres:</label>
+                                <input type="text" id="address-error" ng-model="Address" name="register-form-email" value="" class="form-control" />
+                            </div>
+                            <div class="w-100"></div>
+                            <div class="col-6 form-group">
+                                <label for="register-form-email">TC NUMARASI:</label>
+                                <input type="text" id="identitynumber-error" ng-model="IdentityNumber" name="register-form-email" value="" class="form-control" />
+                            </div>
+
+                            <div class="col-6 form-group">
+                                <label for="register-form-email">VERGİ DAİRESİ ADI:</label>
+                                <input type="text" id="taxadministration2-error" ng-model="TaxAdministration" name="register-form-email" value="" class="form-control" />
+                            </div>
+                            <div class="w-100"></div>
+                            <div class="col-6 form-group">
+                                <label for="register-form-email">VERGİ DAİRESİ NUMARASI:</label>
+                                <input type="text" id="taxnumber2-error" ng-model="TaxNumber" name="register-form-email" value="" class="form-control" />
+                            </div>
+
+
+                            <div class="w-100"></div>
+
+                            <div class="col-12 form-group">
+                                <button class="btn btn-dark m-0" id="btnDisabledUpdate" ng-disabled="usernameRegisterSituation==true || emailRegisterSituation==true" ng-click="postdata(Username,Email,Password,NameSurname,Address,IdentityNumber,TaxAdministration,TaxNumber)">Kaydet</button>
+                            </div>
+
+                        </form>
+
+                    </div>
+
+
+
+
+
+
+
+
+                </div><!-- .postcontent end -->
+                <!-- Sidebar
+                ============================================= -->
+                <div class="sidebar col-lg-3">
+                    <div class="sidebar-widgets-wrap">
+
+                        <div class="widget clearfix">
+
+                            <div class="list-group">
+                                <a href="#" onclick="window.location.href = '/KullaniciBilgilerim/'" class="list-group-item list-group-item-action d-flex justify-content-between"><div>Kullanıcı Bilgilerim</div><i class="icon-user"></i></a>
+                                <a href="#" onclick="window.location.href = '/AtananSayfalarim/'" class="list-group-item list-group-item-action d-flex justify-content-between"><div>Atanan Sayfalarım</div><i class="icon-edit"></i></a>
+                                @if (User.IsInRole("Gallery"))
+                                {
+                                    <a href="#" onclick="window.location.href = '/Sergilerim/'" class="list-group-item list-group-item-action d-flex justify-content-between"><div>Sergilerim</div><i class="icon-line-trello"></i></a>
+                                    <a href="#" onclick="window.location.href = '/GaleriAyarlari/'" class="list-group-item list-group-item-action d-flex justify-content-between"><div>Galeri Ayarları</div><i class="icon-cog"></i></a>
+                                }
+                                <a href="#" onclick="window.location.href = '/Security/Logout/'" ; class="list-group-item list-group-item-action d-flex justify-content-between"><div>Çıkış</div><i class="icon-line2-logout"></i></a>
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+                </div><!-- .sidebar end -->
+            </div>
+
+        </div>
+    </div>
+</section><!-- #content end -->
+
+
+@section PageScript
+{
+    <script src="~/Content/notifyjs/notify.js"></script>
+
+    <script src="~/MetronicAdmin/assets/build/js/utils.js"></script>
+
+    <script src="~/MetronicAdmin/assets/build/js/intlTelInput.js"></script>
+
+    <script src="~/MyScripts/Admin/KullaniciBilgilerimController.js"></script>
+
+
+}
+

@@ -1,0 +1,94 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<!-- Page Title
+        ============================================= -->
+<section id="page-title">
+
+    <div class="container clearfix">
+        <h1>Atanan Sayfalarım</h1>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#" onclick="window.location.href = '/'" ;>Ana Sayfa</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Atanan Sayfalarım</li>
+        </ol>
+    </div>
+
+</section><!-- #page-title end -->
+
+
+<section id="content">
+    <div class="content-wrap">
+        <div class="container clearfix">
+
+            <div class="row gutter-40 col-mb-80">
+                <!-- Post Content
+                ============================================= -->
+                <div class="postcontent col-lg-9 order-lg-last" ng-controller="GetAllPageHomeCTRL">
+                    <div class="alert alert-warning" ng-show="data.length ==0">
+                        <strong>Uyarı!</strong> Bu kullanıcıya atanan sayfa bulunmamaktadır.
+                    </div>
+                    <div class="row">
+                        <div class="entry col-lg-3 col-md-4 col-sm-6 col-12" ng-repeat="t in data">
+                            <div class="grid-inner">
+                                <div class="entry-image">
+                                    <a href="#" ng-click="GoEditDetail(t.Id)" class="entry-link" target="_blank">
+                                        {{t.PageId}}
+                                        <span ng-show="t.Title ==''">--------------------</span>
+                                        <span ng-show="t.Title !=''">{{t.Title}}</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+
+
+
+
+
+
+                </div><!-- .postcontent end -->
+                <!-- Sidebar
+                ============================================= -->
+                <div class="sidebar col-lg-3">
+                    <div class="sidebar-widgets-wrap">
+
+                        <div class="widget clearfix">
+
+                            <div class="list-group">
+                                <a href="#" onclick="window.location.href = '/KullaniciBilgilerim/'" class="list-group-item list-group-item-action d-flex justify-content-between"><div>Kullanıcı Bilgilerim</div><i class="icon-user"></i></a>
+                                <a href="#" onclick="window.location.href = '/AtananSayfalarim/'" class="list-group-item list-group-item-action d-flex justify-content-between"><div>Atanan Sayfalarım</div><i class="icon-edit"></i></a>
+                                @if (User.IsInRole("Gallery"))
+                                {
+                                    <a href="#" onclick="window.location.href = '/Sergilerim/'" class="list-group-item list-group-item-action d-flex justify-content-between"><div>Sergilerim</div><i class="icon-line-trello"></i></a>
+                                    <a href="#" onclick="window.location.href = '/GaleriAyarlari/'" class="list-group-item list-group-item-action d-flex justify-content-between"><div>Galeri Ayarları</div><i class="icon-cog"></i></a>
+                                }
+                                <a href="#" onclick="window.location.href = '/Security/Logout/'" ; class="list-group-item list-group-item-action d-flex justify-content-between"><div>Çıkış</div><i class="icon-line2-logout"></i></a>
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+                </div><!-- .sidebar end -->
+            </div>
+
+        </div>
+    </div>
+</section><!-- #content end -->
+
+
+@section PageScript
+{
+    <script src="~/Scripts/toastr.min.js"></script>
+    <script src="~/MyScripts/Admin/AtananSayfalarimController.js"></script>
+
+}

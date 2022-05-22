@@ -1,0 +1,168 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section PageCSS
+
+    {
+
+    <link href="~/Content/Bootstrap-Fileinput/bootstrap-fileinput.css" rel="stylesheet" />
+
+
+}
+<!-- Page Title
+        ============================================= -->
+<section id="page-title">
+
+    <div class="container clearfix">
+        <h1>GALERİ AYARLARI</h1>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#" onclick="window.location.href = '/'" ;>Ana Sayfa</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Galeri Ayarları</li>
+        </ol>
+    </div>
+
+</section><!-- #page-title end -->
+
+
+<section id="content">
+    <div class="content-wrap">
+        <div class="container clearfix">
+
+            <div class="row gutter-40 col-mb-80">
+                <!-- Post Content
+                ============================================= -->
+                <div class="postcontent col-lg-9 order-lg-last" ng-controller="GaleriAyarlariCTRL">
+
+
+                    <div class="alert alert-warning" ng-show="resultData.length ==0">
+                        <strong>Uyarı!</strong> Size atanan galeri bulunmamaktadır.
+                    </div>
+
+
+                    <div class="col-md-12" style="text-align:center;" ng-show="resultData.length !==0">
+
+
+                        <form name="register-form" class="row" method="post">
+
+                            <div class="col-12 form-group">
+                                <div class="fileinput fileinput-new" data-provides="fileinput" style="width:200px">
+
+                                    <div class="fileinput-new thumbnail">
+
+                                        <img ng-show="Img ==''" ng-src="/Content/Img/noimage.png" alt="" />
+
+                                        <img ng-show="Img !=''" ng-src="{{Img}}" alt="" />
+
+
+
+                                    </div>
+
+                                    <div class="fileinput-preview fileinput-exists thumbnail"> </div>
+
+                                    <div>
+
+                                        <span class="btn default btn-file">
+
+
+                                            <button ng-show="Img !=''" class="fileinput-new btn button-curatorColor">   Logo Değiştir </button>
+                                            <button ng-show="Img ==''" class="fileinput-new btn button-curatorColor">   Logo Seç </button>
+
+                                            <span class="fileinput-exists btn btn-warning"> Değiştir </span>
+
+                                            <input type="file" name="" ng-model="ImagePath" id="ImagePath" class="ImagePath" onchange="angular.element(this).scope().fileNameChanged(this)">
+
+                                        </span>
+
+                                        <span class="btn btn-danger fileinput-exists" data-dismiss="fileinput" ng-model="ImagePath"> Sil </span>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="w-100"></div>
+
+                            <div class="col-6 form-group">
+                                <label for="register-form-name">GALERİ ADI:</label>
+                                <input disabled type="text" id="register-form-name" ng-model="Name" name="register-form-name" value="" class="form-control" />
+
+                            </div>
+
+                            <div class="col-6 form-group">
+                                <label for="register-form-name">Input2:</label>
+                                <input type="text" id="register-form-name" ng-model="Input1" name="register-form-name" value="" class="form-control" />
+
+                            </div>
+                            <div class="col-6 form-group">
+                                <label for="register-form-name">Input1:</label>
+                                <input type="text" id="register-form-name" ng-model="Input2" name="register-form-name" value="" class="form-control" />
+
+                            </div>
+                            <div class="w-100"></div>
+
+
+                            <div class="col-12 form-group" style="text-align:left">
+                                <button class="btn btn-dark m-0" id="btnDisabledUpdate" ng-click="postdata(Img,Name,Input1,Input2)">Kaydet</button>
+                            </div>
+
+
+                        </form>
+
+
+
+                    </div>
+
+
+
+                </div><!-- .postcontent end -->
+                <!-- Sidebar
+                ============================================= -->
+                <div class="sidebar col-lg-3">
+                    <div class="sidebar-widgets-wrap">
+
+                        <div class="widget clearfix">
+
+
+                            <div class="list-group">
+
+                                <a href="#" onclick="window.location.href = '/KullaniciBilgilerim/'" class="list-group-item list-group-item-action d-flex justify-content-between"><div>Kullanıcı Bilgilerim</div><i class="icon-user"></i></a>
+                                <a href="#" onclick="window.location.href = '/AtananSayfalarim/'" class="list-group-item list-group-item-action d-flex justify-content-between"><div>Atanan Sayfalarım</div><i class="icon-edit"></i></a>
+                                @if (User.IsInRole("Gallery"))
+                                {
+                                    <a href="#" onclick="window.location.href = '/Sergilerim/'" class="list-group-item list-group-item-action d-flex justify-content-between"><div>Sergilerim</div><i class="icon-line-trello"></i></a>
+                                    <a href="#" onclick="window.location.href = '/GaleriAyarlari/'" class="list-group-item list-group-item-action d-flex justify-content-between"><div>Galeri Ayarları</div><i class="icon-cog"></i></a>
+
+                                }
+                                <a href="#" onclick="window.location.href = '/Security/Logout/'" ; class="list-group-item list-group-item-action d-flex justify-content-between"><div>Çıkış</div><i class="icon-line2-logout"></i></a>
+                                <br />
+
+
+                            </div>
+
+
+
+                        </div>
+
+
+                    </div>
+                </div><!-- .sidebar end -->
+            </div>
+
+        </div>
+    </div>
+</section><!-- #content end -->
+
+
+@section PageScript
+{
+    <script src="~/Content/Bootstrap-Fileinput/bootstrap-fileinput.js"></script>
+    <script src="~/Content/notifyjs/notify.js"></script>
+    <script src="~/Theme/js/components/bs-datatable.js"></script>
+
+    <script src="~/MyScripts/Admin/GaleriAyarlariController.js"></script>
+
+}
+
+

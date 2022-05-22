@@ -1,0 +1,109 @@
+﻿
+@{
+    ViewBag.Title = "Duzenleme";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section PageCSS
+
+    {
+
+    <link href="~/Content/Bootstrap-Fileinput/bootstrap-fileinput.css" rel="stylesheet" />
+
+
+}
+
+<div ng-controller="EditPageByUserDetailsCTRL">
+
+
+
+    <!-- Page Title
+        ============================================= -->
+    <section id="page-title">
+
+        <div class="container clearfix">
+            <h1>Düzenleme</h1>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#" onclick="window.location.href = '/'" ;>Ana Sayfa</a></li>
+                <li class="breadcrumb-item"><a href="#" onclick="window.location.href = '/AtananSayfalarim/'" ;>Atanan Sayfalarım</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Düzenleme</li>
+            </ol>
+        </div>
+
+    </section><!-- #page-title end -->
+
+
+    <section id="content">
+        <div class="content-wrap">
+            <div class="container clearfix">
+
+                <div class="row gutter-40 col-mb-80">
+                    <!-- Post Content
+
+                    ============================================= -->
+                    <div class="postcontent col-lg-9 order-lg-last">
+
+                        <div class="col-md-12">
+
+                            <div ng-view></div>
+
+
+                        </div>
+
+
+
+
+
+
+
+
+                    </div><!-- .postcontent end -->
+                    <!-- Sidebar
+                    ============================================= -->
+                    <div class="sidebar col-lg-3">
+                        <div class="sidebar-widgets-wrap">
+
+                            <div class="widget clearfix">
+
+                                <div class="list-group">
+                                    <a href="#" onclick="window.location.href = '/KullaniciBilgilerim/'" class="list-group-item list-group-item-action d-flex justify-content-between"><div>Kullanıcı Bilgilerim</div><i class="icon-user"></i></a>
+                                    <a href="#" onclick="window.location.href = '/AtananSayfalarim/'" class="list-group-item list-group-item-action d-flex justify-content-between"><div>Atanan Sayfalarım</div><i class="icon-edit"></i></a>
+                                    @if (User.IsInRole("Gallery"))
+                                    {
+                                        <a href="#" onclick="window.location.href = '/Sergilerim/'" class="list-group-item list-group-item-action d-flex justify-content-between"><div>Sergilerim</div><i class="icon-line-trello"></i></a>
+                                        <a href="#" onclick="window.location.href = '/GaleriAyarlari/'" class="list-group-item list-group-item-action d-flex justify-content-between"><div>Galeri Ayarları</div><i class="icon-cog"></i></a>
+                                    }
+                                    <a href="#" onclick="window.location.href = '/Security/Logout/'" ; class="list-group-item list-group-item-action d-flex justify-content-between"><div>Çıkış</div><i class="icon-line2-logout"></i></a>
+                                </div>
+
+                            </div>
+
+
+
+                        </div>
+                    </div><!-- .sidebar end -->
+                </div>
+
+            </div>
+        </div>
+    </section><!-- #content end -->
+
+
+
+
+
+
+
+</div>
+
+
+
+
+@section PageScript {
+
+    <script src="~/Content/Bootstrap-Fileinput/bootstrap-fileinput.js"></script>
+    <script src="~/Content/notifyjs/notify.js"></script>
+    <script src="~/MyScripts/Admin/AtananSayfalarimController.js"></script>
+
+
+}
+

@@ -1,0 +1,93 @@
+﻿
+<form name="register-form" class="row" method="post">
+
+    <div class="col-12 form-group" style="text-align:center;">
+        <!--<label for="register-form-name">RESİM:</label>-->
+        <!--<input type="text" id="register-form-name" ng-model="Img" name="register-form-name" value="" class="form-control" />-->
+
+        <div class="fileinput fileinput-new" data-provides="fileinput" style="width:200px">
+
+            <div class="fileinput-new thumbnail">
+
+                <img ng-show="Img ==''" ng-src="/Content/Img/noimage.png" alt="" />
+
+                <img ng-show="Img !=''" ng-src="{{Img}}" alt="" />
+
+
+
+            </div>
+
+            <div class="fileinput-preview fileinput-exists thumbnail"> </div>
+
+            <div>
+
+                <span class="btn default btn-file">
+
+
+                    <button ng-show="Img !=''" class="fileinput-new btn button-curatorColor">   Resim Değiştir </button>
+                    <button ng-show="Img ==''" class="fileinput-new btn button-curatorColor">   Resim Seç </button>
+
+                    <span class="fileinput-exists btn btn-warning"> Değiştir </span>
+
+                    <input type="file" name="" ng-model="ImagePath" id="ImagePath" class="ImagePath" onchange="angular.element(this).scope().fileNameChanged(this)">
+
+                </span>
+
+                <span class="btn btn-danger fileinput-exists" data-dismiss="fileinput" ng-model="ImagePath"> Sil </span>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="w-100"></div>
+    <div class="col-6 form-group">
+        <label for="register-form-email">Yaratıcı Adı:</label>
+        <input type="text" id="register-form-email" ng-model="ArtistName" name="register-form-email" value="" class="form-control" />
+    </div>
+
+    <div class="col-6 form-group">
+        <label for="register-form-email">Eser Adı:</label>
+        <input type="text" id="register-form-email" ng-model="Title" name="register-form-email" value="" class="form-control" />
+    </div>
+    <div class="w-100"></div>
+    <div class="col-6 form-group">
+        <label for="register-form-email">TEKNİK:</label>
+        <input type="text" id="register-form-email" ng-model="Technique" name="register-form-email" value="" class="form-control" />
+    </div>
+
+    <div class="col-6 form-group">
+        <label for="register-form-email">ÖLÇÜ:</label>
+        <input type="text" id="register-form-email" ng-model="Size" name="register-form-email" value="" class="form-control" />
+    </div>
+    <div class="w-100"></div>
+    <div class="col-6 form-group">
+        <label for="register-form-email">İMZA:</label>
+        <input type="text" id="register-form-email" ng-model="Signature" name="register-form-email" value="" class="form-control" />
+    </div>
+
+    <div class="col-6 form-group">
+        <label for="register-form-email">Not:</label>
+        <input type="text" id="register-form-email" ng-model="Note" name="register-form-email" value="" class="form-control" />
+    </div>
+
+    <div class="w-100"></div>
+    <div class="col-6 form-group" id="hideExhibitionSelect">
+        <label for="register-form-email">SERGİ ADI:</label>
+        <div class="form-group">
+
+            <select class="form-select"
+                    ng-model="obj.selected"
+                    ng-options="m.Name as m.Name for m in GetAllExhibitionsData" ng-click="FindUserId(obj.selected)">
+                <option value="">Atama Yapılmadı</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="col-12 form-group">
+        <button class="btn btn-dark m-0" id="btnEditByUserDisable" ng-click="postdata(Img,ArtistName,Title,Technique,Size,Signature,Note)">Kaydet</button>
+    </div>
+
+</form>

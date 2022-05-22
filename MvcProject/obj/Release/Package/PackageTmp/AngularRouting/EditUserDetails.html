@@ -1,0 +1,179 @@
+﻿
+
+<div class="page-content-wrapper">
+
+    <div class="page-content">
+
+        
+
+
+
+        <div class="row">
+            <div class="col-md-12">
+                <!-- BEGIN VALIDATION STATES-->
+                <div class="portlet light portlet-fit portlet-form bordered">
+                    <div class="portlet-title">
+                        <div class="caption">
+                            <i class="icon-bubble font-green"></i>
+                            <span class="caption-subject font-green bold uppercase">Edit User</span>
+                        </div>
+
+                    </div>
+                    <div class="portlet-body">
+                        <!-- BEGIN FORM-->
+                        <form method="post" id="form_sample_2" class="form-horizontal">
+                            <div class="form-body">
+
+
+                                <div class="form-group  margin-top-20">
+                                    <label class="control-label col-md-3">
+                                        Username
+                                        <span class="required"> * </span>
+                                    </label>
+                                    <div class="col-md-4">
+                                        <div class="input-icon right">
+                                            <i class="fa"></i>
+                                            <input type="text" ng-model="Username" class="form-control" name="Username" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group  margin-top-20">
+                                    <label class="control-label col-md-3">
+                                        Email
+                                        <span class="required"> * </span>
+                                    </label>
+                                    <div class="col-md-4">
+                                        <div class="input-icon right">
+                                            <i class="fa"></i>
+                                            <input type="text" ng-model="Email" class="form-control" name="Email" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group  margin-top-20">
+                                    <label class="control-label col-md-3">
+                                        New Password
+                                        <span class="required"> * </span>
+                                    </label>
+                                    <div class="col-md-4">
+                                        <div class="input-icon right">
+                                            <i class="fa"></i>
+                                            <input type="text" ng-model="Password" class="form-control" name="Password" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group  margin-top-20">
+                                    <label class="control-label col-md-3">
+                                        Role
+                                        <span class="required"> * </span>
+                                    </label>
+                                    <div class="col-md-4">
+                                        <div class="input-icon right">
+                                            <i class="fa"></i>
+                                            <input type="text" ng-model="Role" class="form-control" name="Role" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group  margin-top-20">
+                                    <label class="control-label col-md-3">
+                                        Name Surname
+                                        <span class="required"> * </span>
+                                    </label>
+                                    <div class="col-md-4">
+                                        <div class="input-icon right">
+                                            <i class="fa"></i>
+                                            <input type="text" ng-model="NameSurname" class="form-control" name="NameSurname" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group  margin-top-20">
+                                    <label class="control-label col-md-3">
+                                        Address
+                                        <span class="required"> * </span>
+                                    </label>
+                                    <div class="col-md-4">
+                                        <div class="input-icon right">
+                                            <i class="fa"></i>
+                                            <input type="text" ng-model="Address" class="form-control" name="Address" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group  margin-top-20">
+                                    <label class="control-label col-md-3">
+                                        Identity Number
+                                    </label>
+                                    <div class="col-md-4">
+                                        <div class="input-icon right">
+                                            <i class="fa"></i>
+                                            <input  type="text"  ng-model="IdentityNumber" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group  margin-top-20">
+                                    <label class="control-label col-md-3">
+                                        Confirm Email
+                                        <span class="required"> * </span>
+                                    </label>
+                                    <div class="col-md-4">
+                                        <div class="input-icon right">
+                                            <i class="fa"></i>
+                                            <input type="checkbox" ng-checked="ConfirmEmail == true">
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group  margin-top-20">
+                                    <label class="control-label col-md-3">
+                                        Phone Number
+                                        <span class="required"> * </span>
+                                    </label>
+                                    <div class="col-md-4">
+                                        <div class="input-icon right">
+                                            <i class="fa"></i>
+                                            <input id="phone" name="phone" type="tel" class="form-control"">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group  margin-top-20">
+                                    <label class="control-label col-md-3">
+                                        Tax Administration
+                                    </label>
+                                    <div class="col-md-4">
+                                        <div class="input-icon right">
+                                            <i class="fa"></i>
+                                            <input type="text" ng-model="TaxAdministration" class="form-control" name="TaxAdministration" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group  margin-top-20">
+                                    <label class="control-label col-md-3">
+                                        Tax Number
+                                    </label>
+                                    <div class="col-md-4">
+                                        <div class="input-icon right">
+                                            <i class="fa"></i>
+                                            <input type="text" ng-model="TaxNumber" class="form-control" name="TaxNumber" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-actions">
+                                <div class="row">
+                                    <div class="col-md-offset-3 col-md-9">
+                                        <button type="submit" id="btnDisabledUpdate" ng-click="postdata(Username,Email,Password,Role,NameSurname,Address,IdentityNumber,ConfirmEmail, ConfirmPhone,TaxAdministration,TaxNumber)" class="btn green">Submit</button>
+                                        <button type="button" class="btn default">Cancel</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                        <!-- END FORM-->
+                    </div>
+                </div>
+                <!-- END VALIDATION STATES-->
+            </div>
+        </div>
+
+
+
+

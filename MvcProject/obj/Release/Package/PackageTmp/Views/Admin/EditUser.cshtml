@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewBag.Title = "EditUser";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+@section PageCSS
+{
+
+
+    <link href="~/MetronicAdmin/assets/build/css/intlTelInput.css" rel="stylesheet" />
+
+
+}
+<h2>EditCategory</h2>
+
+<div ng-controller="EditUserDetailsCTRL">
+    <div ng-view></div>
+</div>
+
+<script src="~/MetronicAdmin/assets/build/js/utils.js"></script>
+
+<script src="~/MetronicAdmin/assets/build/js/intlTelInput.js"></script>
+
+
+@section PageScript {
+    <script src="~/MyScripts/Admin/UserAdminController.js"></script>
+
+}
+

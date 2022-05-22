@@ -1,0 +1,77 @@
+﻿
+@{
+    ViewBag.Title = "EditorEditLogs";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<!-- BEGIN CONTENT -->
+<div class="page-content-wrapper">
+    <!-- BEGIN CONTENT BODY -->
+    <div class="page-content">
+        <!-- BEGIN PAGE HEAD-->
+       
+        <!-- END PAGE HEAD-->
+        <!-- BEGIN PAGE BREADCRUMB -->
+       
+        <!-- END PAGE BREADCRUMB -->
+        <!-- BEGIN PAGE BASE CONTENT -->
+        <div class="row" ng-controller="GetAllLogCTRL">
+            <div class="col-md-12">
+                <!-- BEGIN EXAMPLE TABLE PORTLET-->
+                <div class="portlet light portlet-fit bordered">
+                    <div class="portlet-title">
+                        <div class="caption">
+                            <i class="icon-settings font-red"></i>
+                            <span class="caption-subject font-red sbold uppercase">Editor Edit Logs</span>
+                        </div>
+
+                    </div>
+                    <div class="portlet-body">
+                        <div class="table-toolbar">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="btn-group">
+
+                                        <a @*onclick="window.location.href = '/Admin/CreatePage/'"*@ ; class="button btn green">All Delete Data</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <table class="table table-striped table-hover table-bordered" ng-table="tableParams">
+
+                            <tbody>
+
+                                <tr ng-repeat="c in $data">
+                                    <td title="'#'" sortable="'Id'"> {{$index+1}} </td>
+                                    <td title="'Username'" filter="{ Username: 'text'}" sortable="'Username'"> {{c.Username}} </td>
+                                    @*<td title="'Controller'" filter="{ Controller: 'text'}" sortable="'Controller'"> {{c.Controller}} </td>
+                                    <td title="'Action'" filter="{ Action: 'text'}" sortable="'Action'"> {{c.Action}} </td>*@
+                                    <td title="'CreateDate'" filter="{ CreateDate: 'text'}" sortable="'CreateDate'"> {{c.CreateDate | date : "dd.MM.y hh:mm:ss"}} </td>
+                                    @*<td>
+                                        <a class="edit" data-id="{{c.Id}}" ng-click="GoEditDetail(c.Id)"> Edit </a>
+                                    </td>
+                                    <td>
+                                        <a class="delete" data-id="{{c.Id}}" ng-click="deletedata($event)"> Delete </a>
+                                    </td>*@
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <!-- END EXAMPLE TABLE PORTLET-->
+            </div>
+        </div>
+        <!-- END PAGE BASE CONTENT -->
+    </div>
+    <!-- END CONTENT BODY -->
+</div>
+<!-- END CONTENT -->
+<!-- BEGIN QUICK SIDEBAR -->
+
+
+
+@section PageScript
+{
+    <script src="~/MyScripts/Admin/LogController.js"></script>
+}
